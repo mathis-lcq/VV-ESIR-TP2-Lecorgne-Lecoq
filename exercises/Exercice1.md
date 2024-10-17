@@ -32,10 +32,6 @@ public class Example {
     }
 }
 
-increment --- decrement  
-  |       X     |
-multiply --- division          --- : liaison A et B
-
 TCC = 6/6 = 1 
 LCC = 6/6 = 1 = TCC
 
