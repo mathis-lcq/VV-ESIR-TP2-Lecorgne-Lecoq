@@ -24,7 +24,7 @@ public class PublicElementsPrinter extends VoidVisitorWithDefaults<Void> {
 
     // Constructor to open the file for writing
     public PublicElementsPrinter(String outputPath) throws IOException {
-        this.writer = new BufferedWriter(new FileWriter(outputPath, true));
+        this.writer = new BufferedWriter(new FileWriter(outputPath, false));
     }
 
     // Close the writer after use
