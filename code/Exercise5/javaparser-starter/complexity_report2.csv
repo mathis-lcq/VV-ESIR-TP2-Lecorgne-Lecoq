@@ -1,0 +1,650 @@
+Package Name,Class Name,Method Name,Parameter Types,Cyclomatic Complexity
+org.apache.commons.cli,ValueTest,testLongWithArgWithOption,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilder,getValueClass,"char",1
+org.apache.commons.cli,HelpFormatterTest,testAutomaticUsage,"No parameters",1
+org.apache.commons.cli,ConverterTests,testNumber,"String, Number",2
+org.apache.commons.cli,Parser,processOption,"String, ListIterator<String>",3
+org.apache.commons.cli,ValuesTest,testShortArgs,"No parameters",1
+org.apache.commons.cli,Parser,processProperties,"Properties",9
+org.apache.commons.cli,HelpFormatterTest,testPrintUsage,"No parameters",1
+org.apache.commons.cli,OptionsTest,testDuplicateLong,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilderTest,testNumberPattern,"No parameters",1
+org.apache.commons.cli.help,Builder,setDefaultArgName,"String",1
+org.apache.commons.cli,BasicParserTest,testUnambiguousPartialLongOption2,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,setUp,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testUnambiguousPartialLongOption1,"No parameters",1
+org.apache.commons.cli,TypeHandlerTest,createDateFixtures,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testUnambiguousPartialLongOption4,"No parameters",1
+org.apache.commons.cli,Options,getMatchingOptions,"String",4
+org.apache.commons.cli,BasicParserTest,testUnambiguousPartialLongOption3,"No parameters",1
+org.apache.commons.cli,ConverterTests,testClass,"No parameters",1
+org.apache.commons.cli,OptionBuilder,withLongOpt,"String",1
+org.apache.commons.cli,HelpFormatterTest,testOptionWithoutShortFormat2,"No parameters",1
+org.apache.commons.cli,OptionTest,testEquals,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testFindWrapPos,"No parameters",1
+org.apache.commons.cli,HelpFormatter,appendWrappedText,"A, int, int, String",6
+org.apache.commons.cli.bug,BugsTest,test14786,"No parameters",1
+org.apache.commons.cli,TypeHandlerTest,testRegister,"No parameters",1
+org.apache.commons.cli.help,Builder,setSyntaxFormatFunction,"BiFunction<OptionFormatter,Boolean,String>",1
+org.apache.commons.cli,TypeHandlerTest,testCreateObject,"No parameters",1
+org.apache.commons.cli,TypeHandler,createDefaultMap,"No parameters",1
+org.apache.commons.cli,Option,getType,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testRenderWrappedTextMultiLinePadded,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testMissingArgWithBursting,"No parameters",1
+org.apache.commons.cli.help,AbstractHelpFormatter,setSyntaxPrefix,"String",1
+org.apache.commons.cli,HelpFormatterTest,testPrintHelpWithSince,"No parameters",1
+org.apache.commons.cli,Option,clearValues,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testPropertiesOption1,"No parameters",1
+org.apache.commons.cli,HelpFormatter,renderOptions,"StringBuffer, int, Options, int, int",2
+org.apache.commons.cli,OptionComparator,compare,"Option, Option",1
+org.apache.commons.cli,AbstractParserTestCase,testStopAtNonOptionLong,"No parameters",1
+org.apache.commons.cli.help,HelpAppendable,appendFormat,"String, Object",1
+org.apache.commons.cli.bug,BugsTest,test15648,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testArgumentStartingWithHyphen,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,tesstMakeColumnQueue,"No parameters",1
+org.apache.commons.cli,Builder,setSince,"String",1
+org.apache.commons.cli,OptionsTest,testAddNonConflictingOptions,"No parameters",1
+org.apache.commons.cli,ValuesTest,testShortArgsWithValue,"No parameters",1
+org.apache.commons.cli,ConverterTests,testUrl,"No parameters",1
+org.apache.commons.cli,OptionTest,testSerialization,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testPropertiesOption2,"No parameters",1
+org.apache.commons.cli,ValueTest,testLongOptionalNoValueWithOption,"CommandLineParser",1
+org.apache.commons.cli,AbstractParserTestCase,testOptionGroupLong,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testRenderSince,"No parameters",1
+org.apache.commons.cli,ValuesTest,testExtraArgs,"No parameters",1
+org.apache.commons.cli,OptionValidator,search,"char[], char",3
+org.apache.commons.cli,OptionTest,testBuilderMethods,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testOptionalArgsOptionBuilder,"No parameters",1
+org.apache.commons.cli,ArgumentIsOptionTest,testOption,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testUsageWithLongOptSeparator,"No parameters",1
+org.apache.commons.cli.help,HelpFormatterTest,getTestGroups,"No parameters",1
+org.apache.commons.cli.bug,BugCLI265Test,testShouldParseConcatenatedShortOptions,"No parameters",1
+org.apache.commons.cli,OptionsTest,testAddOptions,"No parameters",1
+org.apache.commons.cli,CommandLineTest,createParsedOptionValueParameters,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilder,getValueType,"char",2
+org.apache.commons.cli,TypeHandlerTest,testCreateClass,"No parameters",1
+org.apache.commons.cli,ApplicationTest,testMan,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testPrintHelpNewlineFooter,"No parameters",1
+org.apache.commons.cli,OptionTest,testAddValue,"No parameters",1
+org.apache.commons.cli,OptionValidator,isValidOpt,"char",1
+org.apache.commons.cli,HelpFormatterTest,testHelpWithLongOptSeparator,"No parameters",1
+org.apache.commons.cli,Builder,toType,"Class<?>",1
+org.apache.commons.cli,HelpFormatterTest,testRenderWrappedTextSingleLinePadded2,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilder,isValueCode,"char",1
+org.apache.commons.cli,BasicParserTest,testBursting,"No parameters",1
+org.apache.commons.cli,HelpFormatter,renderWrappedTextBlock,"A, int, int, String",4
+org.apache.commons.cli,TypeHandler,createNumber,"String",1
+org.apache.commons.cli,DefaultParser,handleLongOptionWithoutEqual,"String",3
+org.apache.commons.cli,OptionTest,testBuilderEmpty,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testOptionAndRequiredOption,"No parameters",1
+org.apache.commons.cli,Builder,optionalArg,"boolean",2
+org.apache.commons.cli,GnuParserTest,testShortWithUnexpectedArgument,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testRenderWrappedTextSingleLine,"No parameters",1
+org.apache.commons.cli,ArgumentIsOptionTest,testOptionAndOptionWithArgument,"No parameters",1
+org.apache.commons.cli,DefaultParser,handleLongOptionWithEqual,"String",4
+org.apache.commons.cli.help,TextStyle,toString,"No parameters",1
+org.apache.commons.cli,ParseException,wrap,"Throwable",3
+org.apache.commons.cli,Option,getConverter,"No parameters",1
+org.apache.commons.cli,DefaultParser,isLongOption,"String",4
+org.apache.commons.cli.example,AptHelpAppendableTest,testAppendParagraphFormatTest,"No parameters",1
+org.apache.commons.cli,OptionGroup,setSelected,"Option",3
+org.apache.commons.cli.help,HelpFormatterTest,testSortOptionsTest,"No parameters",1
+org.apache.commons.cli,HelpFormatter,appendOptionGroup,"StringBuilder, OptionGroup",6
+org.apache.commons.cli,ValueTest,parsers,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testPropertyOptionUnexpected,"No parameters",2
+org.apache.commons.cli,Options,getOptionGroups,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,appendHeader,"int, CharSequence",3
+org.apache.commons.cli,CommandLineTest,checkHandler,"boolean, List<Option>, Option",2
+org.apache.commons.cli,BasicParserTest,testStopBursting,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testLongOptionWithEqualsQuoteHandling,"No parameters",1
+org.apache.commons.cli.help,TextStyle,pad,"boolean, CharSequence",7
+org.apache.commons.cli.bug,BugCLI71Test,testLackOfError,"No parameters",2
+org.apache.commons.cli,DefaultParser,handleShortAndLongOption,"String",11
+org.apache.commons.cli,BasicParserTest,testAmbiguousLongWithoutEqualSingleDash2,"No parameters",1
+org.apache.commons.cli,SolrCreateToolTest,testHelpFormatter,"No parameters",1
+org.apache.commons.cli,OptionGroupTest,testTwoValidLongOptions,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testNegativeOption,"No parameters",1
+org.apache.commons.cli,DefaultParser,handleOption,"Option",1
+org.apache.commons.cli,ValuesTest,testCharSeparator,"No parameters",1
+org.apache.commons.cli,Option,addValue,"String",1
+org.apache.commons.cli,ValueTest,testShortNoArgWithOption,"No parameters",1
+org.apache.commons.cli,Option,add,"String",2
+org.apache.commons.cli.help,Util,ltrim,"String",1
+org.apache.commons.cli.help,OptionFormatter,getSince,"No parameters",1
+org.apache.commons.cli,DefaultParser,handleConcatenatedOptions,"String",4
+org.apache.commons.cli,OptionsTest,testAddOptions2X,"No parameters",1
+org.apache.commons.cli.help,OptionFormatter,getArgName,"No parameters",1
+org.apache.commons.cli,PosixParser,gobble,"Iterator<String>",3
+org.apache.commons.cli,Builder,setPrintWriter,"PrintWriter",1
+org.apache.commons.cli,ValueTest,testLongOptionalArgValue,"CommandLineParser",1
+org.apache.commons.cli,CommandLineTest,testGetOptionValue,"String[], Option, OptionGroup, boolean, String, boolean, String, Option",1
+org.apache.commons.cli,Options,addRequiredOption,"String, String, boolean, String",1
+org.apache.commons.cli,AbstractParserTestCase,testPropertyOptionMultipleValues,"No parameters",1
+org.apache.commons.cli,DeprecatedAttributesTest,testBuilderNonDefaultsToString,"No parameters",1
+org.apache.commons.cli.help,HelpFormatterTest,testToSyntaxOptionOptionsTest,"No parameters",1
+org.apache.commons.cli,ValueTest,testShortOptionalArgNoValueWithOption,"CommandLineParser",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testWriteColumnQueues,"No parameters",1
+org.apache.commons.cli,HelpFormatter,setOptionComparator,"Comparator<Option>",1
+org.apache.commons.cli.help,OptionFormatterTest,testSetOptArgumentSeparator,"No parameters",1
+org.apache.commons.cli,OptionTest,testTypeClass,"No parameters",1
+org.apache.commons.cli,CommandLineTest,testBadGetParsedOptionValue,"No parameters",1
+org.apache.commons.cli,CommandLine,getOptionProperties,"String",3
+org.apache.commons.cli.example,AptHelpAppendableTest,beforeEach,"No parameters",1
+org.apache.commons.cli,OptionTest,testClear,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testAdjustTableFormat,"No parameters",1
+org.apache.commons.cli,ApplicationTest,testAnt,"No parameters",1
+org.apache.commons.cli.help,OptionFormatterTest,testAsOptional,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilderTest,testClassPattern,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testPrintHelpWithEmptySyntax,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,adjustTableFormat,"TableDefinition",12
+org.apache.commons.cli.help,TextHelpAppendable,setLeftPad,"int",1
+org.apache.commons.cli,Builder,numberOfArgs,"int",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testAppendTitle,"No parameters",1
+org.apache.commons.cli,Option,hasNoValues,"No parameters",1
+org.apache.commons.cli,CommandLine,getParsedOptionValue,"String, T",1
+org.apache.commons.cli,Option,getValueSeparator,"No parameters",1
+org.apache.commons.cli,OptionValidatorTest,optionParameters,"No parameters",5
+org.apache.commons.cli,SolrCreateToolTest,testHelpFormatterDeprecated,"No parameters",1
+org.apache.commons.cli.help,UtilTest,testFindNonWhitespacePos,"Character, boolean",1
+org.apache.commons.cli,PatternOptionBuilder,unsupported,"No parameters",1
+org.apache.commons.cli,ValuesTest,testComplexValues,"No parameters",1
+org.apache.commons.cli.help,Builder,setComparator,"Comparator<Option>",1
+org.apache.commons.cli,Option,hashCode,"No parameters",1
+org.apache.commons.cli,DefaultParser,handleToken,"String",8
+org.apache.commons.cli,TypeHandler,createClass,"String",1
+org.apache.commons.cli.help,UtilTest,charArgs,"No parameters",3
+org.apache.commons.cli,DefaultParserTest,testLongOptionQuoteHandlingWithStrip,"No parameters",1
+org.apache.commons.cli,DefaultParser,checkRequiredOptions,"No parameters",2
+org.apache.commons.cli,CommandLine,getOptionObject,"String",2
+org.apache.commons.cli.help,TableDefinition,headers,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testAppendList,"No parameters",3
+org.apache.commons.cli,DefaultParser,updateRequiredOptions,"Option",4
+org.apache.commons.cli.help,OptionFormatter,toOptional,"String",2
+org.apache.commons.cli,BasicParserTest,testShortWithEqual,"No parameters",1
+org.apache.commons.cli.help,Util,isEmpty,"CharSequence",1
+org.apache.commons.cli,DefaultParser,parse,"Options, String[], Properties, boolean",4
+org.apache.commons.cli,Option,setType,"Object",1
+org.apache.commons.cli,Option,setValueSeparator,"char",1
+org.apache.commons.cli,TypeHandler,createObject,"String",1
+org.apache.commons.cli.bug,BugCLI325Test,testCli325,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testLongWithEqualDoubleDash,"No parameters",1
+org.apache.commons.cli,DefaultParserTest,testBuilder,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilderTest,testExistingFilePatternFileNotExist,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testNegativeArgument,"No parameters",1
+org.apache.commons.cli.help,OptionFormatter,getLongOpt,"No parameters",1
+org.apache.commons.cli.help,Util,indexOfNonWhitespace,"CharSequence, int",3
+org.apache.commons.cli,Option,clone,"No parameters",2
+org.apache.commons.cli,OptionValidatorTest,setup,"No parameters",9
+org.apache.commons.cli.help,TextHelpAppendable,resize,"TextStyle.Builder, double",2
+org.apache.commons.cli,ValueTest,testLongOptionalArgValueWithOption,"CommandLineParser",1
+org.apache.commons.cli,DefaultParserTest,testLongOptionWithEqualsQuoteHandlingWithStrip,"No parameters",1
+org.apache.commons.cli.help,OptionFormatterTest,testSetSyntaxFormatFunction,"No parameters",1
+org.apache.commons.cli,ConverterTests,testDate,"No parameters",1
+org.apache.commons.cli.help,FilterHelpAppendable,append,"CharSequence, int, int",1
+org.apache.commons.cli,DefaultParser,checkRequiredArgs,"No parameters",3
+org.apache.commons.cli.example,AptHelpAppendableTest,testAppendHeaderTest,"No parameters",1
+org.apache.commons.cli,CommandLineTest,testGetOptionPropertiesWithOption,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testWithRequiredOption,"No parameters",1
+org.apache.commons.cli,OptionGroup,setRequired,"boolean",1
+org.apache.commons.cli,Builder,setForRemoval,"boolean",1
+org.apache.commons.cli.help,HelpAppendable,appendParagraphFormat,"String, Object",1
+org.apache.commons.cli.help,TableDefinition,caption,"No parameters",1
+org.apache.commons.cli,TypeHandler,createFile,"String",1
+org.apache.commons.cli.bug,BugsTest,test31148,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testOptionGroup,"No parameters",1
+org.apache.commons.cli,Parser,setOptions,"Options",1
+org.apache.commons.cli.bug,BugCLI133Test,testOrder,"No parameters",1
+org.apache.commons.cli,OptionsTest,assertToStrings,"Option",1
+org.apache.commons.cli,OptionsTest,testDuplicateSimple,"No parameters",1
+org.apache.commons.cli,UtilTest,testStripLeadingHyphens,"No parameters",1
+org.apache.commons.cli,Options,getRequiredOptions,"No parameters",1
+org.apache.commons.cli,PosixParser,init,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testLongWithoutEqualDoubleDash,"No parameters",1
+org.apache.commons.cli,ApplicationTest,testGroovy,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,getIndent,"No parameters",1
+org.apache.commons.cli.help,Builder,setOptionFormatBuilder,"OptionFormatter.Builder",1
+org.apache.commons.cli,DefaultParser,isJavaProperty,"String",1
+org.apache.commons.cli.help,HelpFormatterTest,testSetOptionFormatBuilderTest,"No parameters",1
+org.apache.commons.cli,DefaultParser,isNegativeNumber,"String",2
+org.apache.commons.cli,HelpFormatter,getDescPadding,"No parameters",1
+org.apache.commons.cli,OptionTest,testBuilderInsufficientParams1,"No parameters",1
+org.apache.commons.cli,CommandLine,resolveOption,"String",4
+org.apache.commons.cli,CommandLineTest,testGetOptionProperties,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testStopAtUnexpectedArg,"No parameters",1
+org.apache.commons.cli.help,OptionFormatterTest,testSetDefaultArgName,"No parameters",1
+org.apache.commons.cli,Options,getOptions,"No parameters",1
+org.apache.commons.cli.help,Builder,setOptArgSeparator,"String",1
+org.apache.commons.cli.bug,BugsTest,test11680,"No parameters",1
+org.apache.commons.cli,HelpFormatter,getLongOptPrefix,"No parameters",1
+org.apache.commons.cli,DeprecatedAttributes,isForRemoval,"No parameters",1
+org.apache.commons.cli,ValueTest,testShortOptionalArgValue,"CommandLineParser",1
+org.apache.commons.cli,OptionGroupTest,testTwoOptionsFromDifferentGroup,"No parameters",1
+org.apache.commons.cli.bug,BugCLI162Test,testInfiniteLoop,"No parameters",1
+org.apache.commons.cli,HelpFormatter,getWidth,"No parameters",1
+org.apache.commons.cli,OptionGroup,getNames,"No parameters",1
+org.apache.commons.cli,HelpFormatter,printUsage,"PrintWriter, int, String, Options",6
+org.apache.commons.cli,AbstractParserTestCase,testMultiple,"No parameters",1
+org.apache.commons.cli.help,OptionFormatterTest,testAsSyntaxOption,"No parameters",1
+org.apache.commons.cli,CommandLineTest,asChar,"Option",1
+org.apache.commons.cli,ConverterTests,testObject,"No parameters",1
+org.apache.commons.cli,OptionTest,checkOption,"Option, String, String, String, int, String, boolean, boolean, char, Class<?>, String, Boolean, String",4
+org.apache.commons.cli,Option,getDeprecated,"No parameters",1
+org.apache.commons.cli,HelpFormatter,findWrapPos,"String, int, int",7
+org.apache.commons.cli.help,TextHelpAppendable,appendParagraph,"CharSequence",2
+org.apache.commons.cli,OptionTest,roundTrip,"Option",1
+org.apache.commons.cli,DefaultParser,getLongPrefix,"String",3
+org.apache.commons.cli.bug,BugsTest,test11456,"No parameters",1
+org.apache.commons.cli,CommandLineTest,testBuilderBuild,"No parameters",1
+org.apache.commons.cli.bug,BugsTest,test11458,"No parameters",3
+org.apache.commons.cli.bug,BugsTest,test11457,"No parameters",1
+org.apache.commons.cli.help,AbstractHelpFormatter,getOptionGroupSeparator,"No parameters",1
+org.apache.commons.cli.bug,BugCLI162Test,testPrintHelpLongLines,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testShortOptionConcatenatedQuoteHandling,"No parameters",1
+org.apache.commons.cli,ValuesTest,testMultipleArgValues,"No parameters",1
+org.apache.commons.cli.help,AbstractHelpFormatter,getSyntaxPrefix,"No parameters",1
+org.apache.commons.cli,TypeHandlerTest,createValueTestParameters,"No parameters",1
+org.apache.commons.cli,OptionGroupTest,testTwoOptionsFromGroup,"No parameters",2
+org.apache.commons.cli,HelpFormatter,setWidth,"int",1
+org.apache.commons.cli,CommandLineTest,testHasOptionNullDeprecationHandler,"String[], Option, OptionGroup, boolean, boolean, boolean, boolean, Option",1
+org.apache.commons.cli,HelpFormatterTest,testPrintSortedUsageWithNullComparator,"No parameters",1
+org.apache.commons.cli.help,OptionFormatterTest,testSetLongOptPrefix,"No parameters",1
+org.apache.commons.cli.help,AbstractHelpFormatter,getOptionFormatter,"Option",1
+org.apache.commons.cli,Options,addOption,"String, String, boolean, String",1
+org.apache.commons.cli,Option,equals,"Object",3
+org.apache.commons.cli.help,OptionFormatterTest,testSetArgumentNameDelimiters,"No parameters",1
+org.apache.commons.cli,TypeHandler,createURL,"String",1
+org.apache.commons.cli,DefaultParser,isShortOption,"String",3
+org.apache.commons.cli,OptionBuilder,hasOptionalArgs,"int",1
+org.apache.commons.cli,AbstractParserTestCase,testPropertyOptionSingularValue,"No parameters",1
+org.apache.commons.cli,OptionTest,testTypeObject,"No parameters",1
+org.apache.commons.cli.help,Builder,setMinWidth,"int",1
+org.apache.commons.cli,OptionsTest,testLong,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testStopAtNonOptionShort,"No parameters",1
+org.apache.commons.cli,TypeHandlerTest,testCreateNumber,"No parameters",1
+org.apache.commons.cli,Builder,argName,"String",1
+org.apache.commons.cli.help,TextStyleTests,testPad,"TextStyle, String, String",1
+org.apache.commons.cli,AbstractParserTestCase,testSimpleLong,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testOptionWithoutShortFormat,"No parameters",1
+org.apache.commons.cli,TypeHandlerTest,testCreateValueExistingFile,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilderTest,testObjectPattern,"No parameters",1
+org.apache.commons.cli,CommandLineTest,assertWritten,"boolean, ByteArrayOutputStream",2
+org.apache.commons.cli.example,AptHelpAppendableTest,testAppendTableTest,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testUnrecognizedOption,"No parameters",2
+org.apache.commons.cli.help,HelpFormatterTest,testToSyntaxOptionGroupTest,"No parameters",1
+org.apache.commons.cli,SolrCliTest,getDefaultSolrUrl,"No parameters",1
+org.apache.commons.cli,UtilTest,testStripLeadingAndTrailingQuotes,"No parameters",1
+org.apache.commons.cli.help,AbstractHelpFormatter,sort,"Options",1
+org.apache.commons.cli,OptionTest,testHashCode,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,appendTitle,"CharSequence",2
+org.apache.commons.cli.help,OptionFormatter,toSyntaxOption,"boolean",1
+org.apache.commons.cli.help,Builder,setOptionalDelimiters,"String, String",1
+org.apache.commons.cli.help,TextHelpAppendable,makeColumnQueues,"List<String>, List<TextStyle>",2
+org.apache.commons.cli,HelpFormatterTest,testPrintDeprecatedOptions,"HelpFormatter, Option, String",2
+org.apache.commons.cli,OptionTest,testGetValue,"No parameters",1
+org.apache.commons.cli,OptionsTest,testToString,"No parameters",1
+org.apache.commons.cli,Option,setConverter,"Converter<?,?>",1
+org.apache.commons.cli,HelpFormatter,getOptionComparator,"No parameters",1
+org.apache.commons.cli,ValueTest,testShortOptionalNArgValuesWithOption,"No parameters",1
+org.apache.commons.cli,AmbiguousOptionException,createMessage,"String, Collection<String>",3
+org.apache.commons.cli,OptionBuilderTest,testBuilderIsResettedAlways,"No parameters",3
+org.apache.commons.cli.bug,BugCLI71Test,testGetsDefaultIfOptional,"No parameters",1
+org.apache.commons.cli,PosixParser,processOptionToken,"String, boolean",3
+org.apache.commons.cli,HelpFormatterTest,deprecatedOptionsProvider,"No parameters",1
+org.apache.commons.cli.bug,BugsTest,test12210,"No parameters",3
+org.apache.commons.cli,Builder,since,"String",1
+org.apache.commons.cli.help,Builder,setScalable,"boolean",1
+org.apache.commons.cli.bug,BugsTest,test13666,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testLongWithEqualSingleDash,"No parameters",1
+org.apache.commons.cli.bug,BugsTest,test13425,"No parameters",2
+org.apache.commons.cli,HelpFormatter,setNewLine,"String",1
+org.apache.commons.cli,Option,getValuesList,"No parameters",1
+org.apache.commons.cli,HelpFormatter,createDefaultPrintWriter,"No parameters",1
+org.apache.commons.cli,DefaultParser,handleUnknownToken,"String",3
+org.apache.commons.cli,DefaultParser,isOption,"String",1
+org.apache.commons.cli.bug,BugCLI266Test,testOptionComparatorDefaultOrder,"No parameters",2
+org.apache.commons.cli,BasicParserTest,testUnrecognizedOptionWithBursting,"No parameters",1
+org.apache.commons.cli,TypeHandlerTest,testCreateFile,"No parameters",1
+org.apache.commons.cli.help,OptionFormatter,getDescription,"No parameters",1
+org.apache.commons.cli,DefaultParser,getMatchingLongOptions,"String",3
+org.apache.commons.cli,HelpFormatterTest,testDefaultArgName,"No parameters",1
+org.apache.commons.cli.help,Builder,setDeprecatedFormatFunction,"Function<Option,String>",1
+org.apache.commons.cli,Option,setLongOpt,"String",1
+org.apache.commons.cli.help,TextStyle,getMinWidth,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilderTest,testUntypedPattern,"No parameters",1
+org.apache.commons.cli.bug,BugCLI266Test,testOptionComparatorInsertedOrder,"No parameters",2
+org.apache.commons.cli.help,TextHelpAppendable,systemOut,"No parameters",1
+org.apache.commons.cli,OptionTest,testBuilderInsufficientParams2,"No parameters",1
+org.apache.commons.cli,Builder,setShowDeprecated,"Function<Option,String>",1
+org.apache.commons.cli,DefaultParser,handleProperties,"Properties",8
+org.apache.commons.cli.help,Util,repeat,"int, char",1
+org.apache.commons.cli,ValueTest,testLongOptionalNArgValuesWithOption,"CommandLineParser",1
+org.apache.commons.cli.bug,BugCLI13Test,testCLI13,"No parameters",1
+org.apache.commons.cli,ValueTest,testLongNoArg,"No parameters",1
+org.apache.commons.cli,DeprecatedAttributesTest,testDefaultBuilder,"No parameters",1
+org.apache.commons.cli.bug,BugCLI18Test,testCLI18,"No parameters",1
+org.apache.commons.cli,TypeHandlerTest,testOpenFile,"No parameters",1
+org.apache.commons.cli.help,HelpFormatterTest,testDefault,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testResizeTableFormat,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,printQueue,"Queue<String>",2
+org.apache.commons.cli.help,Util,rtrim,"String",3
+org.apache.commons.cli.help,TableDefinition,rows,"No parameters",1
+org.apache.commons.cli,GnuParserTest,testLongWithUnexpectedArgument2,"No parameters",1
+org.apache.commons.cli,GnuParserTest,testLongWithUnexpectedArgument1,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testSingleDash,"No parameters",1
+org.apache.commons.cli.help,Builder,asThis,"No parameters",1
+org.apache.commons.cli,TypeHandlerTest,testCreateURL,"No parameters",1
+org.apache.commons.cli,HelpFormatter,setLongOptSeparator,"String",1
+org.apache.commons.cli,CommandLineTest,testHasOptionNoDeprecationHandler,"String[], Option, OptionGroup, boolean, boolean, boolean, boolean, Option",1
+org.apache.commons.cli,Options,addOptionGroup,"OptionGroup",3
+org.apache.commons.cli,Options,addOptions,"Options",3
+org.apache.commons.cli,HelpFormatterTest,testRenderWrappedTextWordCut,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testRenderWrappedTextMultiLine,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testOptionalArgsOptionDotBuilder,"No parameters",1
+org.apache.commons.cli,ValueTest,testShortOptionalArgValuesWithOption,"CommandLineParser",1
+org.apache.commons.cli,Option,processValue,"String",5
+org.apache.commons.cli,AlreadySelectedExceptionTest,testConstructor,"No parameters",1
+org.apache.commons.cli,OptionBuilderTest,testBaseOptionCharOpt,"No parameters",1
+org.apache.commons.cli,CommandLineTest,testGetParsedOptionValue,"String[], Option, OptionGroup, boolean, Integer, boolean, Integer, Option",1
+org.apache.commons.cli,ApplicationTest,testLs,"No parameters",1
+org.apache.commons.cli.example,AptHelpAppendableTest,testAppendFormatTest,"No parameters",1
+org.apache.commons.cli,DefaultParser,indexOfEqual,"String",1
+org.apache.commons.cli,CommandLine,iterator,"No parameters",1
+org.apache.commons.cli.help,TextStyle,isScalable,"No parameters",1
+org.apache.commons.cli,OptionTest,testHasArgName,"No parameters",1
+org.apache.commons.cli,OptionValidatorTest,testValidate,"String, boolean, String",2
+org.apache.commons.cli.help,UtilTest,testIsEmpty,"No parameters",1
+org.apache.commons.cli,Option,setArgs,"int",1
+org.apache.commons.cli.help,TextHelpAppendable,setIndent,"int",1
+org.apache.commons.cli,Options,hasLongOption,"String",1
+org.apache.commons.cli.help,Builder,setOptionGroupSeparator,"String",1
+org.apache.commons.cli.bug,BugCLI312Test,testPropertyStyleOption_withGetOptionProperties,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testLongWithoutEqualSingleDash,"No parameters",1
+org.apache.commons.cli,Options,helpOptions,"No parameters",1
+org.apache.commons.cli,CommandLineTest,createOptionValuesParameters,"No parameters",1
+org.apache.commons.cli.help,HelpFormatterTest,testSyntaxPrefix,"No parameters",1
+org.apache.commons.cli.example,AptHelpAppendableTest,testAppendParagraphTest,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testPrintWrapped,"No parameters",1
+org.apache.commons.cli,CommandLine,getArgs,"No parameters",1
+org.apache.commons.cli,DeprecatedAttributes,toEmpty,"String",1
+org.apache.commons.cli,DeprecatedAttributesTest,testDefaultToString,"No parameters",1
+org.apache.commons.cli.help,OptionFormatterTest,testGetBothOpt,"No parameters",1
+org.apache.commons.cli,OptionGroupTest,testSingleOptionFromGroup,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilderTest,testSimplePattern,"No parameters",1
+org.apache.commons.cli.bug,BugsTest,test13666_Builder,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,appendTable,"TableDefinition",3
+org.apache.commons.cli.help,Builder,setHelpAppendable,"HelpAppendable",1
+org.apache.commons.cli.help,AbstractHelpFormatter,getHelpAppendable,"No parameters",1
+org.apache.commons.cli,ValueTest,testShortNoArg,"No parameters",1
+org.apache.commons.cli.bug,BugCLI252Test,testAmbiquousOptionName,"No parameters",1
+org.apache.commons.cli.help,Builder,setArgumentNameDelimiters,"String, String",1
+org.apache.commons.cli,ValueTest,testLongOptionalNoValue,"CommandLineParser",1
+org.apache.commons.cli,AbstractParserTestCase,testPropertyOptionFlags,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testPrintRequiredOptionGroupUsage,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testAppend,"No parameters",1
+org.apache.commons.cli,OptionBuilder,withDescription,"String",1
+org.apache.commons.cli.bug,BugCLI162Test,testLongLineChunking,"No parameters",1
+org.apache.commons.cli,PosixParser,processNonOptionToken,"String, boolean",2
+org.apache.commons.cli,HelpFormatterTest,testPrintHelpNewlineHeader,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testPrintSortedUsage,"No parameters",1
+org.apache.commons.cli,OptionGroupTest,testTwoValidOptions,"No parameters",1
+org.apache.commons.cli,CommandLineTest,testBuilderGet,"No parameters",1
+org.apache.commons.cli,CommandLine,getOptionValues,"String",1
+org.apache.commons.cli,Option,hasArg,"No parameters",1
+org.apache.commons.cli.help,OptionFormatter,builder,"No parameters",1
+org.apache.commons.cli,HelpFormatter,renderWrappedText,"StringBuffer, int, int, String",2
+org.apache.commons.cli,OptionGroup,isSelected,"No parameters",1
+org.apache.commons.cli,ValueTest,testShortOptionalNArgValuesSeparated,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testPropertyOptionGroup,"No parameters",1
+org.apache.commons.cli.help,Builder,setShowSince,"boolean",1
+org.apache.commons.cli.help,TextHelpAppendable,indexOfWrap,"CharSequence, int, int",7
+org.apache.commons.cli,AbstractParserTestCase,testShortOptionQuoteHandling,"No parameters",1
+org.apache.commons.cli,Builder,longOpt,"String",1
+org.apache.commons.cli,OptionValidator,validate,"String",7
+org.apache.commons.cli,Option,isDeprecated,"No parameters",1
+org.apache.commons.cli,MissingOptionException,getMissingOptions,"No parameters",1
+org.apache.commons.cli,Option,requiresArg,"No parameters",3
+org.apache.commons.cli,OptionsTest,testGetMatchingOpts,"No parameters",1
+org.apache.commons.cli.help,OptionFormatterTest,testComplexDeprecationFormat,"DeprecatedAttributes, String",1
+org.apache.commons.cli.help,TextHelpAppendable,printWrapped,"String, TextStyle",1
+org.apache.commons.cli,HelpFormatter,setLeftPadding,"int",1
+org.apache.commons.cli.help,OptionFormatterTest,assertEquivalent,"OptionFormatter, OptionFormatter",1
+org.apache.commons.cli.example,AptHelpAppendableTest,testAppendTitleTest,"No parameters",1
+org.apache.commons.cli,OptionBuilderTest,testTwoCompleteOptions,"No parameters",1
+org.apache.commons.cli,ValueTest,testLongNoArgWithOption,"No parameters",1
+org.apache.commons.cli,CommandLineTest,testBuilderNullOption,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testAmbiguousPartialLongOption3,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testAmbiguousPartialLongOption2,"No parameters",1
+org.apache.commons.cli.help,Builder,setAlignment,"Alignment",1
+org.apache.commons.cli,BasicParserTest,testAmbiguousPartialLongOption1,"No parameters",1
+org.apache.commons.cli.help,HelpFormatterTest,testSortOptionGroupsTest,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testMissingArg,"No parameters",2
+org.apache.commons.cli.help,Builder,setLongOptPrefix,"String",1
+org.apache.commons.cli,AbstractParserTestCase,testPropertyOverrideValues,"No parameters",1
+org.apache.commons.cli,HelpFormatter,getOptPrefix,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testAmbiguousPartialLongOption4,"No parameters",1
+org.apache.commons.cli,Builder,converter,"Converter<?,?>",1
+org.apache.commons.cli,AbstractParserTestCase,testSimpleShort,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilderTest,testURLPattern,"No parameters",1
+org.apache.commons.cli,CommandLineTest,testGetOptionValues,"String[], Option, OptionGroup, boolean, String[], boolean, String[], Option",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testindexOfWrapPosWithWhitespace,"Character, boolean",1
+org.apache.commons.cli,AbstractParserTestCase,testStopAtExpectedArg,"No parameters",1
+org.apache.commons.cli.help,HelpFormatterTest,testPrintHelpXML,"No parameters",1
+org.apache.commons.cli,OptionBuilderTest,testSpecialOptChars,"No parameters",2
+org.apache.commons.cli,AbstractParserTestCase,testPropertyOptionRequired,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,getTextStyleBuilder,"No parameters",1
+org.apache.commons.cli,Builder,setDeprecatedHandler,"Consumer<Option>",1
+org.apache.commons.cli,CommandLineTest,createOptionValueParameters,"No parameters",1
+org.apache.commons.cli,OptionsTest,testMissingOptionException,"No parameters",2
+org.apache.commons.cli,CommandLineTest,testNullOption,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testMissingRequiredOptions,"No parameters",3
+org.apache.commons.cli,BasicParserTest,testStopBursting2,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testMultipleWithNull,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testSetIndent,"No parameters",1
+org.apache.commons.cli,OptionsTest,testHelpOptions,"No parameters",1
+org.apache.commons.cli,Option,getKey,"No parameters",1
+org.apache.commons.cli,HelpFormatter,createPadding,"int",1
+org.apache.commons.cli,DefaultParserTest,testShortOptionQuoteHandlingWithStrip,"No parameters",1
+org.apache.commons.cli,OptionGroupTest,testSingleOption,"No parameters",1
+org.apache.commons.cli.bug,BugsTest,test13935,"No parameters",3
+org.apache.commons.cli,HelpFormatter,appendOptions,"A, int, Options, int, int",14
+org.apache.commons.cli.help,Util,repeatSpace,"int",1
+org.apache.commons.cli,OptionGroupTest,testTwoOptionsFromGroupWithProperties,"No parameters",1
+org.apache.commons.cli,OptionsTest,testMissingOptionsException,"No parameters",2
+org.apache.commons.cli,DisablePartialMatchingTest,testRegularPartialMatching,"No parameters",1
+org.apache.commons.cli.help,HelpFormatterTest,testSetOptionGroupSeparatorTest,"No parameters",1
+org.apache.commons.cli.help,Util,isWhitespace,"char",1
+org.apache.commons.cli.help,TextHelpAppendable,appendList,"boolean, Collection<CharSequence>",3
+org.apache.commons.cli,ConverterTests,testFile,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testRenderWrappedTextSingleLinePadded,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testindexOfWrapPos,"No parameters",1
+org.apache.commons.cli,OptionsTest,testSimple,"No parameters",1
+org.apache.commons.cli.bug,BugCLI71Test,testBasic,"No parameters",1
+org.apache.commons.cli,HelpFormatter,getNewLine,"No parameters",1
+org.apache.commons.cli.example,AptHelpAppendableTest,testAppendListTest,"No parameters",1
+org.apache.commons.cli,Option,hasArgName,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,makeColumnQueue,"CharSequence, TextStyle",2
+org.apache.commons.cli,Builder,desc,"String",1
+org.apache.commons.cli,CommandLine,getArgList,"No parameters",1
+org.apache.commons.cli,CommandLine,addArg,"String",2
+org.apache.commons.cli,ValueTest,testShortWithArg,"No parameters",1
+org.apache.commons.cli,DefaultParserTest,testLongOptionWithEqualsQuoteHandlingWithoutStrip,"No parameters",1
+org.apache.commons.cli,DeprecatedAttributesTest,testBuilderNonDefaults,"No parameters",1
+org.apache.commons.cli,Option,getId,"No parameters",1
+org.apache.commons.cli,OptionBuilder,withType,"Object",1
+org.apache.commons.cli,OptionsTest,testAddConflictingOptions,"No parameters",1
+org.apache.commons.cli.help,OptionFormatter,getBothOpt,"No parameters",2
+org.apache.commons.cli,OptionBuilder,withValueSeparator,"char",1
+org.apache.commons.cli.help,UtilTest,testRtrim,"Character, boolean",2
+org.apache.commons.cli,Util,stripLeadingHyphens,"String",4
+org.apache.commons.cli,DefaultParserTest,testShortOptionQuoteHandlingWithoutStrip,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testAppendParagraphFormat,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testIndentedHeaderAndFooter,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testMissingRequiredGroup,"No parameters",3
+org.apache.commons.cli,Converter,apply,"String",1
+org.apache.commons.cli,ValueTest,testShortOptionalArgNoValue,"CommandLineParser",1
+org.apache.commons.cli,PatternOptionBuilder,parsePattern,"String",6
+org.apache.commons.cli,Options,hasShortOption,"String",1
+org.apache.commons.cli,HelpFormatter,getLongOptSeparator,"No parameters",1
+org.apache.commons.cli.help,AbstractHelpFormatter,printOptions,"TableDefinition",1
+org.apache.commons.cli,Option,getValue,"String",1
+org.apache.commons.cli,Options,getOptionGroup,"Option",1
+org.apache.commons.cli,OptionGroup,getSelected,"No parameters",1
+org.apache.commons.cli.help,OptionFormatter,getOpt,"No parameters",1
+org.apache.commons.cli,OptionValidatorTest,testExclusivity,"No parameters",3
+org.apache.commons.cli,HelpFormatter,setDescPadding,"int",1
+org.apache.commons.cli,OptionGroupTest,testTwoLongOptionsFromGroup,"No parameters",2
+org.apache.commons.cli,Option,acceptsArg,"No parameters",1
+org.apache.commons.cli.bug,BugCLI265Test,testShouldParseShortOptionWithoutValue,"No parameters",1
+org.apache.commons.cli.bug,BugCLI312Test,testNoOptionValues,"No parameters",1
+org.apache.commons.cli.help,Builder,setTextStyle,"TextStyle",1
+org.apache.commons.cli,TypeHandler,openFile,"String",1
+org.apache.commons.cli,ValueTest,testLongOptionalArgValuesWithOption,"CommandLineParser",1
+org.apache.commons.cli.help,Util,defaultValue,"T, T",1
+org.apache.commons.cli,Builder,deprecated,"DeprecatedAttributes",1
+org.apache.commons.cli,TypeHandlerTest,testCreateFiles,"No parameters",1
+org.apache.commons.cli,CommandLineTest,testBuilderNullArgs,"No parameters",1
+org.apache.commons.cli,Builder,type,"Class<?>",1
+org.apache.commons.cli.help,AbstractHelpFormatter,getTableDefinition,"Iterable<Option>",1
+org.apache.commons.cli.help,OptionFormatterTest,testSetOptSeparator,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testShortWithoutEqual,"No parameters",1
+org.apache.commons.cli,Builder,required,"boolean",1
+org.apache.commons.cli,DisablePartialMatchingTest,testDisablePartialMatching,"No parameters",1
+org.apache.commons.cli.bug,BugCLI71Test,testMistakenArgument,"No parameters",1
+org.apache.commons.cli,OptionTest,testBuilderInvalidOptionName1,"No parameters",1
+org.apache.commons.cli,OptionTest,testBuilderInvalidOptionName0,"No parameters",1
+org.apache.commons.cli,HelpFormatter,getLeftPadding,"No parameters",1
+org.apache.commons.cli,Options,hasOption,"String",1
+org.apache.commons.cli.help,AbstractHelpFormatter,getSerializer,"No parameters",1
+org.apache.commons.cli,OptionTest,testBuilderInvalidOptionName4,"No parameters",1
+org.apache.commons.cli,OptionTest,testBuilderInvalidOptionName3,"No parameters",1
+org.apache.commons.cli,Option,hasArgs,"No parameters",1
+org.apache.commons.cli,OptionTest,testBuilderInvalidOptionName2,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testPrintOptionGroupUsage,"No parameters",1
+org.apache.commons.cli.help,TextStyleTests,padTestData,"No parameters",1
+org.apache.commons.cli,CommandLineTest,testGetOptionsCtor,"No parameters",1
+org.apache.commons.cli,ConverterTests,numberTestParameters,"No parameters",1
+org.apache.commons.cli.bug,BugCLI162Test,testLongLineChunkingIndentIgnored,"No parameters",1
+org.apache.commons.cli,BasicParserTest,testDoubleDash2,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testDoubleDash1,"No parameters",1
+org.apache.commons.cli.help,AbstractHelpFormatter,getComparator,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testAmbiguousArgParsing,"No parameters",1
+org.apache.commons.cli,OptionGroupTest,testGetNames,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,setMaxWidth,"int",1
+org.apache.commons.cli.help,OptionFormatterTest,testDefaultSyntaxFormat,"No parameters",1
+org.apache.commons.cli.help,HelpFormatterTest,testToArgNameTest,"No parameters",1
+org.apache.commons.cli,HelpFormatter,determineMaxSinceLength,"Options",1
+org.apache.commons.cli,CommandLine,getOptionValue,"String, Supplier<String>",1
+org.apache.commons.cli,AbstractParserTestCase,testMissingRequiredOption,"No parameters",3
+org.apache.commons.cli,OptionBuilder,reset,"No parameters",1
+org.apache.commons.cli.bug,BugCLI312Test,testPropertyStyleOption_withGetOptions,"No parameters",4
+org.apache.commons.cli,AbstractParserTestCase,testUnlimitedArgs,"No parameters",1
+org.apache.commons.cli,OptionTest,testSubclass,"No parameters",1
+org.apache.commons.cli,TypeHandlerTest,testnstantiableEquals,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testAccessors,"No parameters",1
+org.apache.commons.cli,DefaultParser,handleLongOption,"String",2
+org.apache.commons.cli,HelpFormatterTest,testPrintOptionWithEmptyArgNameUsage,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testAppendTable,"No parameters",1
+org.apache.commons.cli,OptionGroupTest,testValidLongOnlyOptions,"No parameters",1
+org.apache.commons.cli,Builder,setAllowPartialMatching,"boolean",1
+org.apache.commons.cli,OptionBuilderTest,testCreateIncompleteOption,"No parameters",2
+org.apache.commons.cli,Builder,setDescription,"String",1
+org.apache.commons.cli.help,AbstractHelpFormatter,toSyntaxOptions,"Options",1
+org.apache.commons.cli.help,AbstractHelpFormatter,printHelp,"String, String, Options, String, boolean",1
+org.apache.commons.cli,OptionBuilderTest,testOptionArgNumbers,"No parameters",1
+org.apache.commons.cli.help,Builder,get,"No parameters",1
+org.apache.commons.cli,ValueTest,testShortWithArgWithOption,"No parameters",1
+org.apache.commons.cli,DefaultParserTest,testLongOptionQuoteHandlingWithoutStrip,"No parameters",1
+org.apache.commons.cli.help,OptionFormatterTest,deprecatedAttributesData,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,writeColumnQueues,"List<Queue<String>>, List<TextStyle>",4
+org.apache.commons.cli,TypeHandlerTest,testCreateValue,"String, Class<?>, Object",2
+org.apache.commons.cli,TypeHandler,createDate,"String",1
+org.apache.commons.cli,HelpFormatterTest,testHeaderStartingWithLineSeparator1,"No parameters",1
+org.apache.commons.cli,HelpFormatterTest,testHeaderStartingWithLineSeparator0,"No parameters",1
+org.apache.commons.cli,OptionValidator,isValidChar,"char",1
+org.apache.commons.cli.bug,BugCLI265Test,testShouldParseShortOptionWithValue,"No parameters",1
+org.apache.commons.cli.bug,BugCLI148Test,testWorkaround2,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testAppendParagraph,"No parameters",1
+org.apache.commons.cli,PosixParser,burstToken,"String, boolean",5
+org.apache.commons.cli.bug,BugCLI148Test,testWorkaround1,"No parameters",1
+org.apache.commons.cli.bug,BugCLI252Test,testExactOptionNameMatch,"No parameters",1
+org.apache.commons.cli,CommandLine,handleDeprecated,"Option",2
+org.apache.commons.cli,Option,hasOptionalArg,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilderTest,testRequiredOption,"No parameters",2
+org.apache.commons.cli,HelpFormatter,appendOption,"StringBuilder, Option, boolean",5
+org.apache.commons.cli,Option,hasLongOpt,"No parameters",1
+org.apache.commons.cli,Builder,setStripLeadingAndTrailingQuotes,"Boolean",1
+org.apache.commons.cli,ValuesTest,testTwoArgValues,"No parameters",1
+org.apache.commons.cli.help,Builder,toArgName,"String",1
+org.apache.commons.cli,AbstractParserTestCase,testReuseOptionsTwice,"No parameters",2
+org.apache.commons.cli,ValueTest,testShortOptionalArgValueWithOption,"CommandLineParser",1
+org.apache.commons.cli,BasicParserTest,testPartialLongOptionSingleDash,"No parameters",1
+org.apache.commons.cli,Builder,valueSeparator,"char",1
+org.apache.commons.cli.help,TableDefinition,columnTextStyles,"No parameters",1
+org.apache.commons.cli,DefaultParser,stripLeadingAndTrailingQuotesDefaultOn,"String",2
+org.apache.commons.cli,Option,hasValueSeparator,"No parameters",1
+org.apache.commons.cli,OptionBuilderTest,testIllegalOptions,"No parameters",4
+org.apache.commons.cli,MissingArgumentException,getOption,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,getMaxWidth,"No parameters",1
+org.apache.commons.cli,GnuParser,flatten,"Options, String[], boolean",11
+org.apache.commons.cli.help,OptionFormatterTest,testCopyConstructor,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilderTest,testExistingFilePattern,"No parameters",1
+org.apache.commons.cli,AbstractParserTestCase,testMultipleWithLong,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testResize,"No parameters",1
+org.apache.commons.cli,OptionBuilder,create,"String",1
+org.apache.commons.cli.help,OptionFormatter,from,"Option",1
+org.apache.commons.cli,CommandLineTest,testHasOption,"String[], Option, OptionGroup, boolean, boolean, boolean, boolean, Option",1
+org.apache.commons.cli.bug,BugCLI266Test,buildOptionsGroup,"Options",1
+org.apache.commons.cli.help,OptionFormatterTest,testGetDescription,"No parameters",1
+org.apache.commons.cli,ValueTest,testLongWithArg,"No parameters",1
+org.apache.commons.cli.help,OptionFormatter,isRequired,"No parameters",1
+org.apache.commons.cli,TypeHandler,putDefaultMap,"Map<Class<?>,Converter<?,? extends Throwable>>",1
+org.apache.commons.cli.help,Builder,setOptSeparator,"String",1
+org.apache.commons.cli,CommandLineTest,createHasOptionParameters,"No parameters",1
+org.apache.commons.cli.help,TextStyleTests,testDefaultStyle,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendableTest,testGetStyleBuilder,"No parameters",1
+org.apache.commons.cli.help,HelpFormatterTest,testPrintOptions,"No parameters",1
+org.apache.commons.cli,ApplicationTest,testNLT,"No parameters",1
+org.apache.commons.cli,SolrCliTest,testOptions,"No parameters",1
+org.apache.commons.cli,PatternOptionBuilderTest,testEmptyPattern,"No parameters",1
+org.apache.commons.cli,OptionGroupTest,testSingleLongOption,"No parameters",1
+org.apache.commons.cli,OptionTest,testHasArgs,"No parameters",1
+org.apache.commons.cli,DefaultParser,stripLeadingAndTrailingQuotesDefaultOff,"String",2
+org.apache.commons.cli.bug,BugsTest,test15046,"No parameters",1
+org.apache.commons.cli,Builder,option,"String",1
+org.apache.commons.cli,OptionsTest,testDeprecated,"No parameters",1
+org.apache.commons.cli,TypeHandler,createValueUnchecked,"String, Class<T>",2
+org.apache.commons.cli.help,TextHelpAppendableTest,testAppendHeader,"No parameters",1
+org.apache.commons.cli.help,TextHelpAppendable,getLeftPad,"No parameters",1
+org.apache.commons.cli,ValueTest,testLongOptionalArgValues,"CommandLineParser",1
+org.apache.commons.cli,BasicParserTest,testAmbiguousLongWithoutEqualSingleDash,"No parameters",1
+org.apache.commons.cli.help,HelpFormatterTest,testPrintHelp,"No parameters",1
+org.apache.commons.cli,OptionBuilderTest,testBaseOptionStringOpt,"No parameters",1
+org.apache.commons.cli,TypeHandler,createValue,"String, Object",1
+org.apache.commons.cli,CommandLineTest,testNoDeprecationHandler,"String[], Option, OptionGroup, boolean, String, boolean, String, Option",1
+org.apache.commons.cli,AbstractParserTestCase,testLongOptionQuoteHandling,"No parameters",1
+org.apache.commons.cli.help,Builder,setOptPrefix,"String",1
+org.apache.commons.cli.help,TextStyle,getAlignment,"No parameters",1
+org.apache.commons.cli,Option,setOptionalArg,"boolean",1
+org.apache.commons.cli,OptionBuilder,withArgName,"String",1
+org.apache.commons.cli,Option,getValues,"No parameters",1
+org.apache.commons.cli,Parser,processArgs,"Option, ListIterator<String>",5
+org.apache.commons.cli,OptionBuilderTest,testCompleteOption,"No parameters",1
+org.apache.commons.cli,OptionGroupTest,testNoOptionsExtraArgs,"No parameters",1
+org.apache.commons.cli,TypeHandler,getDefault,"No parameters",1
+org.apache.commons.cli,ValueTest,testLongOptionalNArgValues,"CommandLineParser",1
+org.apache.commons.cli.help,HelpFormatterTest,testToSyntaxOptionIterableTest,"No parameters",1
+org.apache.commons.cli,HelpFormatter,setArgName,"String",1
+org.apache.commons.cli,Option,toDeprecatedString,"No parameters",3
+org.apache.commons.cli,DefaultParser,isArgument,"String",1
+org.apache.commons.cli.help,AbstractHelpFormatter,getOptionFormatBuilder,"No parameters",1
+org.apache.commons.cli,OptionTest,testClone,"No parameters",1
+org.apache.commons.cli,CommandLine,processPropertiesFromValues,"Properties, List<String>",3
+org.apache.commons.cli,TypeHandler,createFiles,"String",1
+org.apache.commons.cli.help,Builder,build,"Option",1
+org.apache.commons.cli,OptionsTest,testGetOptionsGroups,"No parameters",1
+org.apache.commons.cli,ValueTest,testShortOptionalNArgValues,"CommandLineParser",1
+org.apache.commons.cli,CommandLineTest,testGetOptionsBuilder,"No parameters",1
+org.apache.commons.cli,TypeHandlerTest,testCreateDate,"Date",1
+org.apache.commons.cli,ValueTest,testShortOptionalArgValues,"CommandLineParser",1
+org.apache.commons.cli,ArgumentIsOptionTest,testOptionWithArgument,"No parameters",1
+org.apache.commons.cli,Util,stripLeadingAndTrailingQuotes,"String",3

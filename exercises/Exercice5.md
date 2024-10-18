@@ -7,3 +7,9 @@ Your application should also produce a histogram showing the distribution of CC 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. Do include the reports and plots you obtained from different projects. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 You may use [javaparser-starter](../code/javaparser-starter) as a starting point.
+
+# Answer
+
+Nous trouvons deux histogrammes assez similaires avec un grand nombre de méthodes avec un CC de 1. 
+Plus la CC est élevée plus le nombre de méthodes associées est faible.
+Le plus gros projet (avec plus de méthodes) montre une CC max plus élevée que le second projet.
